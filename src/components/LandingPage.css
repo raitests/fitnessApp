@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .landing-page {
+    min-height: 100vh;
+    background-color: #27272d;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 4rem;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fc2330;
+  }
+
+  .logo-icon {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .nav-links a:hover,
+  .nav-links a.active {
+    color: #fc2330;
+  }
+
+  .signup-btn {
+    background-color: #fc2330;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .signup-btn:hover {
+    background-color: #ff4444;
+  }
+
+  /* Hero section styles */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .hero-content {
+    max-width: 600px;
+  }
+
+  .hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+  }
+
+  .hero-text {
+    color: #cccccc;
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+  }
+
+  .cta-buttons {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 4rem;
+  }
+
+  .get-started-btn {
+    background-color: #fc2330;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+
+  .get-started-btn:hover {
+    background-color: #ff4444;
+  }
+
+  .watch-video-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #27272d;
+    color: white;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+
+  .watch-video-btn:hover {
+    background-color: #fc2330;
+  }
+  /* Stats section styles */
+  .stats {
+    display: flex;
+    gap: 4rem;
+  }
+
+  .stat-item h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  .stat-item p {
+    color: #999999;
+  }
+
+  /* Hero image section styles */
+  .hero-image {
+    position: relative;
+  }
+
+  .hero-image img {
+    border-radius: 1rem;
+    max-height: 600px;
+    object-fit: cover;
+  }
+
+  .calories-card {
+    position: absolute;
+    bottom: 2rem;
+    right: 20rem;
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-label {
+    color: #666666;
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .calorie-count {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  .stats-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .trend {
+    color: #fe662c;
+    font-size: 0.875rem;
+  }
+
+  .bar-graph {
+    display: flex;
+    gap: 0.25rem;
+    align-items: flex-end;
+  }
+
+  .bar {
+    width: 0.5rem;
+    background-color: #fe662c;
+    border-radius: 999px;
+  }
+
+  .bar:nth-child(1) { height: 8px; }
+  .bar:nth-child(2) { height: 16px; }
+  .bar:nth-child(3) { height: 24px; }
+  .bar:nth-child(4) { height: 32px; }
+
+  /* Responsive styles */
+  @media (max-width: 1024px) {
+    .hero {
+      flex-direction: column;
+      gap: 4rem;
+    }
+
+    .hero-content {
+      max-width: 100%;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    .nav-links {
+      display: none;
+    }
+  }
+

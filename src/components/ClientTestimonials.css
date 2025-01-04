@@ -1,0 +1,168 @@
+.testimonials-wrapper {
+  background-color: #37393d;
+  color: white;
+  padding: 4rem 8rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonials-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 6rem;
+  position: relative;
+  z-index: 2;
+}
+
+.testimonials-left {
+  flex: 1;
+  max-width: 550px;
+}
+
+.testimonials-heading {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.testimonials-quote {
+  color: #ccc;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2.5rem;
+}
+
+.reviewer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.reviewer-avatars {
+  display: flex;
+  align-items: center;
+}
+
+.reviewer-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-right: -10px;
+}
+
+.reviewer-more-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f93943;
+  border: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+.reviewer-info{
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.reviewer-info img{
+  width: 60px;
+  border-radius: 50%;
+}
+
+.rating-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.rating-star {
+  width: 20px;
+  height: 20px;
+}
+
+.rating-text {
+  color: white;
+  font-size: 1rem;
+}
+
+.trustlogo{
+  opacity: 0.6;
+  width: 10rem;
+}
+
+.testimonial-card {
+  background-color: #474647;
+  color: #ccc;
+  border-radius: 1rem;
+  max-width: 450px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card-content {
+  padding: 2rem;
+  flex: 1;
+}
+
+.nav-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 2;
+}
+
+.nav-btn.prev {
+  background-color: #bdbcbc;
+  color: #474647;
+  margin-left: -20px;
+}
+
+.nav-btn.next {
+  background-color: #fc4451;
+  color: white;
+  margin-right: -20px;
+}
+
+.nav-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Rest of the previous styles remain the same */
+
+@media (max-width: 1200px) {
+  .testimonial-card {
+    max-width: 100%;
+  }
+  
+  .nav-btn.prev {
+    margin-left: 0;
+  }
+  
+  .nav-btn.next {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonials-heading {
+    font-size: 2.5rem;
+  }
+}

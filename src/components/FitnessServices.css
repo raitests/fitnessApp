@@ -1,0 +1,178 @@
+.fitnesxia-services-container {
+    background-color: #3a3b3f;
+    padding: 60px 40px;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  .fitnesxia-services-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+  }
+  
+  .fitnesxia-services-left h1 {
+    font-size: 2.8rem;
+    margin-bottom: 40px;
+    line-height: 1.2;
+    font-weight: bold;
+  }
+  
+  .fitnesxia-services-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .fitnesxia-service-item {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+  }
+  
+  .fitnesxia-check-icon {
+    background-color: #fc7844;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 14px;
+  }
+  
+  .fitnesxia-service-text h3 {
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .fitnesxia-service-text p {
+    color: #cccccc;
+    line-height: 1.6;
+  }
+  
+  .fitnesxia-join-button {
+    background-color: #fc2330;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .fitnesxia-join-button:hover {
+    background-color: #E61E4D;
+  }
+  
+  .fitnesxia-services-right {
+    position: relative;
+  }
+  
+  .fitnesxia-image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 500px;
+  }
+  
+  .fitnesxia-orange-circle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-color: #fc7844;
+    z-index: 1;
+  }
+  
+  .fitnesxia-trainer-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  
+  .fitnesxia-stat-card {
+    position: absolute;
+    background: white;
+    padding: 12px 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    z-index: 3;
+  }
+  
+  .fitnesxia-heart-rate {
+    top: 15%;
+    right: -2%;
+  }
+  
+  .fitnesxia-fat-burning {
+    bottom: 15%;
+    right: 80%;
+  }
+  
+  .fitnesxia-stat-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fitnesxia-stat-value {
+    color: #000;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .fitnesxia-stat-label {
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  @media (max-width: 968px) {
+    .fitnesxia-services-content {
+      grid-template-columns: 1fr;
+    }
+  
+    .fitnesxia-services-left h1 {
+      font-size: 2.2rem;
+    }
+  
+    .fitnesxia-image-wrapper {
+      height: 400px;
+      margin: 0 auto;
+      max-width: 400px;
+    }
+  
+    .fitnesxia-stat-card {
+      transform: scale(0.9);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .fitnesxia-services-container {
+      padding: 40px 20px;
+    }
+  
+    .fitnesxia-services-left h1 {
+      font-size: 1.8rem;
+    }
+  
+    .fitnesxia-image-wrapper {
+      height: 300px;
+      max-width: 300px;
+    }
+  
+    .fitnesxia-stat-card {
+      transform: scale(0.8);
+    }
+  }

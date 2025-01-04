@@ -1,0 +1,157 @@
+.section-container {
+    background-color: #3a3b3f;
+    padding: 4rem 8rem;
+    color: white;
+  }
+  
+  /* Partners Section */
+  .partners {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+  
+  .partner-stats h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .partner-stats p {
+    color: #ccc;
+    font-size: 1.2rem;
+  }
+  
+  .partner-logos {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .partner-logo {
+    height: 80px;
+    object-fit: contain;
+  }
+  
+  /* Content Section */
+  .content-section {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+  }
+  
+  .image-container {
+    position: relative;
+    flex: 0.8;
+    margin-right: 2rem;
+    
+  }
+  
+  .trainer-image {
+    width: 100%;
+    border-radius: 1rem;
+    display: block;
+  }
+  
+  /* Trainer Badge */
+  .trainer-badge {
+    position: absolute;
+    bottom: 30px;
+    right: -60px;
+    background: white;
+    padding: 0.8rem;
+    border-radius: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .trainer-logo{
+    width: 40px;
+  }
+  
+  .trainer-text {
+    display: flex;
+    flex-direction: column;
+    color: #3a3b3f;
+    font-size: 0.9rem;
+  }
+  
+  .trainer-text span:first-child {
+    font-weight: bold;
+  }
+  
+  /* Text Content */
+  .text-content {
+    flex: 1;
+  }
+  
+  .text-content h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+  }
+  
+  .text-content p {
+    color: #ccc;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Button */
+  .trial-button {
+    background-color: #fc2330;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    transition: background-color 0.3s;
+  }
+  
+  .trial-button:hover {
+    background-color: #ff4444;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .section-container {
+      padding: 2rem;
+    }
+  
+    .partners {
+      flex-direction: column;
+      gap: 2rem;
+      text-align: center;
+    }
+  
+    .content-section {
+      flex-direction: column;
+    }
+  
+    .text-content h2 {
+      font-size: 2.5rem;
+    }
+  
+    .partner-logos {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .text-content h2 {
+      font-size: 2rem;
+    }
+  
+    .trainer-badge {
+      right: 50%;
+      transform: translateX(50%);
+    }
+  }
