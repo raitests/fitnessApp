@@ -145,8 +145,6 @@
   transform: translateY(-2px);
 }
 
-/* Rest of the previous styles remain the same */
-
 @media (max-width: 1200px) {
   .testimonial-card {
     max-width: 100%;

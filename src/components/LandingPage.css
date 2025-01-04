@@ -130,7 +130,7 @@
   .watch-video-btn:hover {
     background-color: #fc2330;
   }
-  /* Stats section styles */
+
   .stats {
     display: flex;
     gap: 4rem;
@@ -145,8 +145,6 @@
   .stat-item p {
     color: #999999;
   }
-
-  /* Hero image section styles */
   .hero-image {
     position: relative;
   }
@@ -208,7 +206,6 @@
   .bar:nth-child(3) { height: 24px; }
   .bar:nth-child(4) { height: 32px; }
 
-  /* Responsive styles */
   @media (max-width: 1024px) {
     .hero {
       flex-direction: column;

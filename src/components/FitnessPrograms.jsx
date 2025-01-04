@@ -10,17 +10,17 @@ const FitnessPrograms = () => {
       description: 'Our trainers will design that a progressive workout plans that proper achieve gains strength.',
     },
     {
-      icon: <Accessibility size={64} color="#3a3b3f1" fill='white' />,
+      icon: <Accessibility size={64} fill='white' />,
       title: 'Basic Yoga',
       description: 'This program combines yoga with cardio & strength training to help lose weight & fitness.',
     },
     {
-      icon: <BicepsFlexed size={64} color="#3a3b3f1" fill='white'/>,
+      icon: <BicepsFlexed size={64} fill='white'/>,
       title: 'Body Building',
       description: 'For those looking to increase strength build lean muscle, our strength & muscle.',
     },
     {
-      icon: <Footprints size={64} color="#3a3b3f1" fill='white' />,
+      icon: <Footprints size={64}  fill='white' />,
       title: 'Weight Loss',
       description: 'our weight loss programs are designed to help you make sustainable lifestyle changes.',
     }
