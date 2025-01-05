@@ -1,6 +1,6 @@
 Responsive Fitness Application
 To run app locally:
-1. `npm clone https://github.com/raitests/fitnessApp.git`
+1. `git clone https://github.com/raitests/fitnessApp.git`
 2. `cd fitnessApp`
 3. `npm install`
 4. `npm run build`
