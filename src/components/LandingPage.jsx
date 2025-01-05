@@ -35,7 +35,7 @@ const LandingPage = () => {
           <div className="cta-buttons">
             <button className="get-started-btn">Get Started</button>
             <button className="watch-video-btn">
-              <span className="play-icon"><CirclePlay strokeWidth={1} color='#ff3333' fill='#27272d'size={42}/></span>
+              <span><CirclePlay strokeWidth={1} color='#ff3333' fill='#27272d'size={42}/></span>
               Watch Video
             </button>
           </div>

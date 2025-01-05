@@ -11,7 +11,6 @@
     font-family: Arial, sans-serif;
   }
 
-  /* Navbar styles */
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -66,7 +65,6 @@
     background-color: #ff4444;
   }
 
-  /* Hero section styles */
   .hero {
     display: flex;
     justify-content: space-between;
@@ -76,7 +74,7 @@
   }
 
   .hero-content {
-    max-width: 600px;
+    max-width: 100%;
   }
 
   .hero h1 {
@@ -133,7 +131,7 @@
 
   .stats {
     display: flex;
-    gap: 4rem;
+    gap: 2rem;
   }
 
   .stat-item h3 {
@@ -147,12 +145,13 @@
   }
   .hero-image {
     position: relative;
+    max-width: 1440px;
   }
 
   .hero-image img {
     border-radius: 1rem;
+    max-width: 100%;
     max-height: 600px;
-    object-fit: cover;
   }
 
   .calories-card {
@@ -188,24 +187,7 @@
     color: #fe662c;
     font-size: 0.875rem;
   }
-
-  .bar-graph {
-    display: flex;
-    gap: 0.25rem;
-    align-items: flex-end;
-  }
-
-  .bar {
-    width: 0.5rem;
-    background-color: #fe662c;
-    border-radius: 999px;
-  }
-
-  .bar:nth-child(1) { height: 8px; }
-  .bar:nth-child(2) { height: 16px; }
-  .bar:nth-child(3) { height: 24px; }
-  .bar:nth-child(4) { height: 32px; }
-
+  
   @media (max-width: 1024px) {
     .hero {
       flex-direction: column;
@@ -223,5 +205,22 @@
     .nav-links {
       display: none;
     }
+    .calories-card{
+      right: 1.5rem;
+    }
   }
 
+    @media (max-width: 512px){
+      .calories-card{
+        display: none;
+       }
+       .stats{
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+       }
+       .cta-buttons{
+        display: flex;
+        flex-wrap: wrap;
+       }
+    }
