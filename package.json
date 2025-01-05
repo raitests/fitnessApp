@@ -2,7 +2,6 @@
   "name": "fitness",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://raitests.github.io/fitnessApp",
   "type": "module",
   "scripts": {
     "dev": "vite",
