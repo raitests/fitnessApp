@@ -9,6 +9,7 @@
     background-color: #27272d;
     color: white;
     font-family: Arial, sans-serif;
+    overflow: hidden;
   }
 
   .navbar {
